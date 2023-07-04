@@ -1,0 +1,217 @@
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;    
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+    display: block;
+    margin-top: 40px;
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: blue;
+}
+
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.first {
+   width: 250px; 
+   height: 1198px;
+   background-color: white;
+}
+
+.first {
+    float: left;
+    display: block;    
+    margin: 2px;
+    }
+
+.second {
+float: left;
+display: block;
+margin: 2px;
+
+width: 800px;
+height: 860px;
+position: relative;
+background-color: white;
+border-radius: 10px;
+margin-left: 80px;
+padding-left: 30px;
+
+}    
+
+.Evano {
+  margin-bottom: 30px;
+  
+}
+
+
+.three {
+  height: 1198px;
+  background-color: rgb(244, 244, 249);
+
+}
+
+.search {
+  position: absolute;
+  margin-left: 450px;
+}
+
+.lupa {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    margin-right: 10px;
+    
+}
+
+.button {
+  position: absolute;
+  border: none;
+  padding-top: 5px;
+}
+
+.field {
+  position: relative;
+}
+
+::placeholder {
+  padding-left: 30px;
+}
+
+
+td button {
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: #16C09861;
+  color: #00B087;
+}
+
+.search {
+  margin-right: 30px;
+  border: none;
+  margin-top: -40px;
+}
+
+
+input, textarea {
+  outline: none;
+  border: none;
+  border: solid 1px #f2f2f2;
+  background-color: #f2f6fc;
+  height: 25px;
+  border-radius: 10px;
+  background-image: url('./images/lupa.png');
+  
+}
+
+.table {
+    width: 100%;  
+    font-size: 14px;
+    color: #292D32;
+    ;
+}
+
+td {
+  font-size: 16px;
+    color: #292D32;
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 10px;
+}
+
+.danuas {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 280px;
+  }
+  .danuas li {
+    display: inline;
+    text-align: center;
+    
+    
+  }
+  .danuas a {
+    float: left;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #fbf8f8;
+    margin-left: 200px;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    margin: 0 5px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .danuas a.deystvuyus {
+    cursor: default;
+  }
+  .danuas a:deystvuyus {
+    outline: none;
+  }
+  
+  .perva-peklucatel li:first-child a {
+    -moz-border-radius: 6px 0 0 6px;
+    -webkit-border-radius: 6px;    
+    border-radius: 10px 10px 10px 10px;
+  }
+  .perva-peklucatel li:last-child a {
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 0;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .perva-peklucatel a {
+    border-color: #d6d4d4;
+    color: rgb(33, 29, 29);
+    background: #fdfbfb;
+  }
+  .perva-peklucatel a:hover {
+    background: #eae5e5;
+  }
+  .perva-peklucatel a.deystvuyus, .perva-peklucatel a:deystvuyus {
+    border-color: #3a7ff1;
+    background: #397ef1;
+    color: #fbf9f9;
+  }
+
+  .red {
+    color: red;
+  }
+
+  
+
+
+
+
+
+
